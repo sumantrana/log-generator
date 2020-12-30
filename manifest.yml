@@ -1,0 +1,7 @@
+applications:
+  - name: log-generator
+    path: target/log-generator-0.0.1-SNAPSHOT.jar
+    disk_quota: 1G
+    instances: 1
+    memory: 1G
+    stack: cflinuxfs3
